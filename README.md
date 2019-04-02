@@ -1,7 +1,7 @@
 # Page-Google-Gr3_1
 
 Noms: 
-Leo Wolkowics
+Léo Wolkowicz
 Baptiste Veyrard
 
 
