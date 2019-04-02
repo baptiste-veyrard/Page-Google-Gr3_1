@@ -1,0 +1,148 @@
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.header_boutons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 250px;
+	font-size: small;
+	padding: 10px 30px 0 30px;
+}
+
+.bloc_logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.zone_recherche{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.text_recherche{
+	width: 596px;
+	height: 44px;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: #f2f2f2;
+	border-width: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recherche{
+	width: 514px;
+	height: 40px;
+	border: none;
+	outline: none;
+}
+
+.text_recherche:hover{
+box-shadow: 1px 1px 5px #C6C6C6;
+
+}
+
+.zone_boutons{
+display: flex;
+width: 100%;
+justify-content: center;
+padding-top: 20px;
+}
+
+.cadre_boutons{
+display: flex;
+justify-content: space-around;
+width: 300px;
+}
+
+.cadre{
+	width: auto;
+	height: 35px;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #4A4A4A;
+	border-radius: 5px;
+	padding: 0 16px 0 16px;
+	margin: 2px;
+}
+
+.cadre:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C6C6C6;
+	color: black;
+}
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	width: 100%;
+
+}
+
+.ligne_1{
+	width: 100%;
+	justify-content: flex-start;
+	background-color: #f2f2f2;
+	height: 41px;
+	border-top: 1px;
+	border-top-color: #e4e4e4;
+	border-top-style: solid;
+	display: flex;
+}
+
+.ligne_2{
+	display: flex;
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 41px;
+	border-top: 1px;
+	border-top-color: #e4e4e4;
+	border-top-style: solid;
+}
+
+.partie_gauche{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	align-items: center;
+}
+
+.partie_droite{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	align-items: center;
+}
+
+.footer_margin{
+	padding-left: 27px;
+	color: #4A4A4A;
+	font-size: small;
+}
+
+.footer_margin:hover{
+	text-decoration: underline;
+}
+
+.Site-content{
+  flex: 1;
+}
